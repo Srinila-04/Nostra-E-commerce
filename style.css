@@ -15,12 +15,6 @@ body {
     padding: 5px;
 }
 
-@media  screen and (max-width:480px) {
-    body{
-        font-size: 10px;
-    }
-}
-
 .close__button {
     margin-left: 130px;
     cursor: pointer;
@@ -79,24 +73,6 @@ body {
     display: none; /* Hide by default */
 }
 
-/*0 to 600px */
-@media screen and (max-width: 480px) {
-    .s1__title{
-        font-size: 35px;
-    }
-    .offer__text{
-        font-size: 16px;
-    }
-    .navbar__s2 ul {
-        display: none; /* Hide the menu by default */
-    }
-    .navbar-menu-toggle {
-        display: inline-block;
-        cursor: pointer;
-        font-size: 20px;
-        margin-top: 18px;
-    }
-}
 .side-nav {
     height: 100%;
     width: 0;
@@ -180,24 +156,6 @@ body {
     font-size: 25px;
 }
 
-/*0 to 600px */
-@media screen and (max-width:480px) {
-    .slider-content{
-        font-size: 11px;
-        padding-bottom: 0;
-        margin-bottom: 0;
-    }
-    .slider-content h4{
-        font-size: 20px;
-    }
-    .slider-content-button{
-        font-size: 11px;
-    }
-    .slider-content button:hover{
-        font-size: 18px;
-    }
-}
-
 /* Overlay effect on images */
 .slider-image-container {
     position: relative;
@@ -242,20 +200,6 @@ body {
     width: 1900px; 
 }
 
-/*0 to 600px */
-@media screen and (max-width:480px){
-    .slider-image-container img{
-        height: 670px;
-        width: 390%;
-    }
-    .slider-image-container::before,
-    .slider-image-container::after{
-        background: rgba(0, 0, 0, 0.2); 
-        height: 100%;
-        z-index: 1;
-    }
-}
-
 /* Style for chevron navigation icons */
 .slider-left-button,
 .slider-right-button {
@@ -279,15 +223,6 @@ body {
     bottom: 4px;
 }
 
-/*0 to 600px */
-@media screen and (max-width:480px){
-    .slider-left-button,
-    .slider-right-button{
-        padding-top: 100px;
-        font-size: 40px;
-        margin: 15px;
-    }
-}
 /*brands*/
 .brands{
     display: flex;
@@ -310,47 +245,6 @@ body {
     text-align: center;
     font-size: 2vw;
     padding: 15px;
-}
-
-/* For screens 0 to 600px */
-@media screen and (max-width: 480px) {
-    /* Move the h1 (Brands topic) up */
-    .brands-topic {
-        font-size: 18px; /* Smaller font size for mobile */
-        margin-bottom: 30px; /* Add minimal margin for spacing */
-        text-align: left; /* Center the heading */
-        margin-left: 10px;
-    }
-
-    /* Adjust the brands container */
-    .brands {
-        justify-content: center; /* Center the items horizontally */
-        row-gap: 10px; /* Add space between rows */
-        margin-top: 10px; /* Reduce space after slider */
-    }
-
-    /* Adjust individual brand items */
-    .brands-item {
-        text-align: center; /* Center align each item */
-        width: 45%; /* Ensure two items fit in a row */
-        margin: 0 auto; /* Center the items */
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    /* Adjust brand images */
-    .brands-icon {
-        width: 60px; /* Smaller image size */
-        height: auto; /* Maintain aspect ratio */
-        margin-bottom: 5px; /* Add spacing below the image */
-    }
-
-    /* Adjust the text below images */
-    .brands-item p {
-        font-size: 14px; /* Smaller font for mobile */
-        margin: 0; /* Remove unnecessary margins */
-    }
 }
 
 .services-container-1{
@@ -429,29 +323,6 @@ body {
     font-size: 30px;
 }
 
-/* For screens 0 to 600px */
-@media screen and (max-width: 480px){
-    .services-container-1{
-        font-size: 10px;
-    }
-    .card{
-        font-size: 10px;
-        width: 100%;
-        height: 80px;
-        display: flex; 
-        flex-direction: column;
-        align-items: center;
-        
-    }
-    .card h4{
-        font-size: 14px;
-        margin-top: 5px;
-    }
-    .card i{
-        font-size: 20px;
-    }
-}
-
 .new-arrival{
     display: flex;
     flex-direction: row;
@@ -516,25 +387,6 @@ body {
     opacity: 0.6; 
 }
 
-/* For screens 0 to 600px */
-@media screen and (max-width: 480px){
-    .new_arrival{
-        margin-left: 10px;
-    }
-    .new-arrival-container{
-        position: relative;
-        width: 100px; 
-        height: 150px; 
-        flex-shrink: 0;
-    }
-    .new-arrival-container img{
-        border-radius: 4%;
-        width: 100%;
-        height: 100%; 
-        object-fit: cover;
-    }
-}
-
 .most-wanted{
     display: flex;
     justify-content: space-between;
@@ -580,27 +432,6 @@ body {
     width: auto;
     height: 300px;
     object-fit: cover;
-}
-
-/* For screens 0 to 600px */
-@media screen and (max-width: 480px) {
-    .most-wanted-container img{
-        width: 100px;
-        height: 200px;
-    }
-    .most-wanted-container .like-button {
-        width: 40px;
-        height: 40px;
-        bottom: 6%;
-        right: 3%;
-    }
-    .sale-overlay {
-        top: 8px;
-        left: 8px;
-        font-size: 5vw;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
 }
 
 .limited-offer{
@@ -652,28 +483,6 @@ body {
     border: solid black 2px;
 }
 
-/* For screens 0 to 600px */
-@media screen and (max-width: 480px){
-    .limited-offer {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    .limited-offer-img img {
-        width: 100%;
-        height: auto;
-    }
-    .limited-offer-text h2 {
-        font-size: 25px;
-    }
-    .limited-offer-text h4 {
-        font-size: 20px;
-    }
-    .limited-offer-text button {
-        font-size: 20px;
-    }
-}
 .news {
     font-size: 2vw;
     margin-top: 5vw;
@@ -705,25 +514,6 @@ body {
     border-radius: 10px;
     border: none;
     padding: 10px;
-}
-
-/* For screens 0 to 600px */
-@media screen and (max-width: 480px){
-    .news h2 {
-        margin-top: 5px;
-        font-size: 25px;
-    }
-    .news p{
-        font-size: 13px;
-    }
-    .news .search {
-        width: 100%;
-        max-width: 400px;
-    }
-
-    .news button {
-        font-size: 20px;
-    }
 }
 
 .footer{
@@ -769,24 +559,6 @@ body {
     margin-top: 5px;
 }
 
-/* For screens 0 to 600px */
-@media screen and (max-width: 480px){
-    .footer-container{
-        font-size: 15px;
-    }
-    .footer .footer-box-1 h2 {
-        margin-bottom: 10px;
-    }
-    .footer .footer-box-1 p , .footer-icon-container{
-        margin-top: 10px;
-        cursor: pointer;
-    }
-    .subtitle:hover{
-        text-decoration: underline;
-        cursor: pointer;
-    }
-}
-
 /* Styling for vertical line */
 .vertical-line {
     width: 1px;
@@ -816,22 +588,6 @@ body {
     font-size: 30px; /* Adjust size as needed */
 }
    
-/*media queries for filter-section 
-/* For screens 0 to 600px */
-@media screen and (max-width: 480px){
-    .vertical-line{
-        width: 2px;
-        background-color: #000;
-        height: 200%;
-        margin-left: 40px;
-    }
-    .divide-section h3{
-        font-size: 20px;
-    }
-    .filter-section div{
-        font-size: 20px;
-    }
-}
 /* Styling for search bar */
 .navbar-search {
     display: flex;
@@ -860,24 +616,6 @@ body {
     cursor: pointer;
 }
 
-/*media queries for search bar
-/* For screens 0 to 600px */
-@media screen and (max-width: 480px){
-    .navbar-search{
-        margin-left: 60px;
-        align-items: center;
-    }
-    .navbar-search input{
-        width: 325px;
-        border-radius: 6px;
-    }
-    .navbar-search i{
-        font-size: 15px;
-        left: 300px;
-        margin-bottom: 10px;
-    }
-}
-
 .products-row{
     display: flex;
     flex-direction: row;
@@ -896,25 +634,6 @@ body {
 
 .shirt-name,.price{
     transform: translateY(-370px);
-}
-
-/*media queries for products
-/* For screens 0 to 600px */
-@media screen and (max-width: 480px){
-    .products-row{
-        display: flex;
-        flex-direction: row;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        margin-left: 160px;
-        margin-top: 100px;
-        gap: 50px;
-    }
-    .products img{
-        height: 180px;
-        width: 130px;
-        justify-content: space-around;
-    }
 }
 
 .news-collection {
@@ -950,9 +669,280 @@ body {
     padding: 10px;
 }
 
+/*Media Queries*/
+@media  screen and (max-width:600px) {
+    body{
+        font-size: 8px;
+    }
+}
+/*0 to 600px */
+@media screen and (max-width: 600px) {
+    .s1__title{
+        font-size: 35px;
+    }
+    .offer__text{
+        font-size: 16px;
+    }
+    .navbar__s2 ul {
+        display: none; /* Hide the menu by default */
+    }
+    .navbar-menu-toggle {
+        display: inline-block;
+        cursor: pointer;
+        font-size: 20px;
+        margin-top: 18px;
+    }
+}
+/*0 to 600px */
+@media screen and (max-width:600px) {
+    .slider-content{
+        font-size: 11px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .slider-content h4{
+        font-size: 20px;
+    }
+    .slider-content-button{
+        font-size: 11px;
+    }
+    .slider-content button:hover{
+        font-size: 18px;
+    }
+}
+/*0 to 600px */
+@media screen and (max-width:600px){
+    .slider-image-container img{
+        height: 670px;
+        width: 390%;
+    }
+    .slider-image-container::before,
+    .slider-image-container::after{
+        background: rgba(0, 0, 0, 0.2); 
+        height: 100%;
+        z-index: 1;
+    }
+}
+/*0 to 600px */
+@media screen and (max-width:600px){
+    .slider-left-button,
+    .slider-right-button{
+        padding-top: 100px;
+        font-size: 40px;
+        margin: 15px;
+    }
+}
+/* For screens 0 to 600px */
+@media screen and (max-width: 600px) {
+    /* Move the h1 (Brands topic) up */
+    .brands-topic {
+        font-size: 18px; /* Smaller font size for mobile */
+        margin-bottom: 30px; /* Add minimal margin for spacing */
+        text-align: left; /* Center the heading */
+        margin-left: 10px;
+    }
+
+    /* Adjust the brands container */
+    .brands {
+        justify-content: center; /* Center the items horizontally */
+        row-gap: 10px; /* Add space between rows */
+        margin-top: 10px; /* Reduce space after slider */
+    }
+
+    /* Adjust individual brand items */
+    .brands-item {
+        text-align: center; /* Center align each item */
+        width: 45%; /* Ensure two items fit in a row */
+        margin: 0 auto; /* Center the items */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Adjust brand images */
+    .brands-icon {
+        width: 60px; /* Smaller image size */
+        height: auto; /* Maintain aspect ratio */
+        margin-bottom: 5px; /* Add spacing below the image */
+    }
+
+    /* Adjust the text below images */
+    .brands-item p {
+        font-size: 14px; /* Smaller font for mobile */
+        margin: 0; /* Remove unnecessary margins */
+    }
+}
+/* For screens 0 to 600px */
+@media screen and (max-width: 600px){
+    .services-container-1{
+        font-size: 10px;
+    }
+    .card{
+        font-size: 10px;
+        width: 100%;
+        height: 80px;
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .card h4{
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    .card i{
+        font-size: 20px;
+    }
+}
+/* For screens 0 to 600px */
+@media screen and (max-width: 600px){
+    .new_arrival{
+        margin-left: 10px;
+    }
+    .new-arrival-container{
+        position: relative;
+        width: 100px; 
+        height: 150px; 
+        flex-shrink: 0;
+    }
+    .new-arrival-container img{
+        border-radius: 4%;
+        width: 100%;
+        height: 100%; 
+        object-fit: cover;
+    }
+}
+/* For screens 0 to 600px */
+@media screen and (max-width: 600px) {
+    .most-wanted-container img{
+        width: 100px;
+        height: 200px;
+    }
+    .most-wanted-container .like-button {
+        width: 40px;
+        height: 40px;
+        bottom: 6%;
+        right: 3%;
+    }
+    .sale-overlay {
+        top: 8px;
+        left: 8px;
+        font-size: 5vw;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+/* For screens 0 to 600px */
+@media screen and (max-width: 600px){
+    .limited-offer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .limited-offer-img img {
+        width: 100%;
+        height: auto;
+    }
+    .limited-offer-text h2 {
+        font-size: 25px;
+    }
+    .limited-offer-text h4 {
+        font-size: 20px;
+    }
+    .limited-offer-text button {
+        font-size: 20px;
+    }
+}
+/* For screens 0 to 600px */
+@media screen and (max-width: 600px){
+    .news h2 {
+        margin-top: 5px;
+        font-size: 25px;
+    }
+    .news p{
+        font-size: 13px;
+    }
+    .news .search {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .news button {
+        font-size: 20px;
+    }
+}
+/* For screens 0 to 600px */
+@media screen and (max-width: 600px){
+    .footer-container{
+        font-size: 15px;
+    }
+    .footer .footer-box-1 h2 {
+        margin-bottom: 10px;
+    }
+    .footer .footer-box-1 p , .footer-icon-container{
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    .subtitle:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+/*media queries for filter-section 
+/* For screens 0 to 600px */
+@media screen and (max-width: 600px){
+    .vertical-line{
+        width: 2px;
+        background-color: #000;
+        height: 200%;
+        margin-left: 40px;
+    }
+    .divide-section h3{
+        font-size: 20px;
+    }
+    .filter-section div{
+        font-size: 20px;
+    }
+}
+/*media queries for search bar
+/* For screens 0 to 600px */
+@media screen and (max-width: 600px){
+    .navbar-search{
+        margin-left: 60px;
+        align-items: center;
+    }
+    .navbar-search input{
+        width: 325px;
+        border-radius: 6px;
+    }
+    .navbar-search i{
+        font-size: 15px;
+        left: 300px;
+        margin-bottom: 10px;
+    }
+}
+/*media queries for products
+/* For screens 0 to 600px */
+@media screen and (max-width: 600px){
+    .products-row{
+        display: flex;
+        flex-direction: row;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 160px;
+        margin-top: 100px;
+        gap: 50px;
+    }
+    .products img{
+        height: 180px;
+        width: 130px;
+        justify-content: space-around;
+    }
+}
 /*media queries for news-collection
 /* For screens 0 to 600px */
-@media screen and (max-width: 480px){
+@media screen and (max-width: 600px){
     .news-collection{
         font-size: 20px;
         margin-top: 10px;
